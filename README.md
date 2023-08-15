@@ -17,7 +17,7 @@ The Kalman filter is a mathematical technique used for predicting and estimating
 Deep Association Metric:
 The deep association metric is a key element in DeepSORT's ability to associate and match detected objects across frames. It involves calculating a similarity score between the embeddings (numerical representations) of detected objects in consecutive frames. These embeddings capture object appearance characteristics. By comparing the embeddings of current detections with those from previous frames, DeepSORT establishes associations between objects over time. The deep association metric helps determine which detections correspond to the same real-world object, even if their appearances slightly vary due to changes in lighting, orientation, or occlusions.
 
-<h6>How was DeepSORT implemented?</h6>
+<h5>How was DeepSORT implemented?</h5>
 
 There were a couple implementation issues with DeepSORT, 
 
